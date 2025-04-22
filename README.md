@@ -31,10 +31,6 @@ With just one integration, you can:
 
 - `Blogger Article Schama Amp Code.xml` – The main schema markup code
 
-## Screenshot
-
-*(Optional: Add a screenshot showing where to place the code in Blogger)*
-
 ## Author
 
 **Kamil Hussen**  
