@@ -38,7 +38,7 @@ With just one integration, you can:
 ## Author
 
 **Kamil Hussen**  
-[Instagram](https://www.instagram.com/kamilhussen24/) | [YouTube](https://youtube.com/@kamilhussen24) | [Website](https://kamilhussen24.github.io/)
+[Instagram](https://www.instagram.com/kamilhussen24/) | [Twitter](https://x.com/@kamilhussen24) | [Website](https://kamilhussen24.github.io/)
 
 ## License
 
