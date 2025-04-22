@@ -1,0 +1,30 @@
+<b:if cond='data:view.isPost'>
+  <noscript>
+    <div itemscope='itemscope' itemtype="https://schema.org/Article">
+      <meta expr:content='data:post.url' itemprop="mainEntityOfPage"/>
+      <meta expr:content='data:post.title.jsonEscaped' itemprop="headline"/>
+      <meta expr:content='data:post.title.jsonEscaped' itemprop="name"/>
+      <meta expr:content='data:post.url' itemprop="url"/>
+      <meta expr:content='data:post.snippet' itemprop="description"/>
+      <div itemscope='itemscope' itemprop="image" itemtype="https://schema.org/ImageObject">
+        <meta expr:content='data:post.firstImageUrl' itemprop="url"/>
+        <meta content="1200" itemprop="width"/>
+        <meta content="630" itemprop="height"/>
+      </div>
+      <meta expr:content='data:post.date.iso8601' itemprop="datePublished"/>
+      <meta expr:content='data:post.lastUpdated.iso8601.default' itemprop="dateModified"/>
+      <div itemscope='itemscope' itemprop="author" itemtype="https://schema.org/Person">
+        <meta expr:content='data:post.authorProfileUrl' itemprop="name"/>
+        <meta expr:content='data:blog.homepageUrl.jsonEscaped' itemprop="url"/>
+      </div>
+      <div itemscope='itemscope' itemprop="publisher" itemtype="https://schema.org/Organization">
+        <meta expr:content='data:blog.title.jsonEscaped' itemprop="name"/>
+        <div itemscope='itemscope' itemprop="logo" itemtype="https://schema.org/ImageObject">
+          <meta expr:content='data:blog.logoUrl.default' itemprop="url"/>
+          <meta content="600" itemprop="width"/>
+          <meta content="60" itemprop="height"/>
+        </div>
+      </div>
+    </div>
+  </noscript>
+</b:if>
